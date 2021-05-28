@@ -113,7 +113,7 @@ debugObject.envMapIntensity = 5
  * Models
  */
 gltfLoader.load(
-    '/models/FlightHelmet/glTF/FlightHelmet.gltf',
+    'https://canochaba.github.io/LoadingProgress/models/FlightHelmet/glTF/FlightHelmet.gltf',
     (gltf) =>
     {
         gltf.scene.scale.set(10, 10, 10)
